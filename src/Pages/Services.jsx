@@ -14,8 +14,7 @@ const Services = () => {
   return (
     <div className="bg-gradient-to-b from-gray-900 to-black text-white min-h-screen px-6 md:px-12 lg:px-20 py-12 relative">
       {/* Background Effects */}
-      <div className="absolute w-96 h-96 bg-blue-500 opacity-30 blur-[120px] rounded-full top-20 left-10 animate-pulse"></div>
-      <div className="absolute w-96 h-96 bg-purple-500 opacity-30 blur-[120px] rounded-full bottom-20 right-10 animate-pulse"></div>
+      
 
       {/* Title */}
       <div className="text-center">

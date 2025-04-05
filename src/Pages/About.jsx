@@ -32,7 +32,17 @@ const About = () => {
         variants={fadeInUp}
         className="text-gray-300 text-lg mt-4 italic"
       >
-       I am a passionate Web Developer with extensive experience in UI/UX design and frontend development. With a deep understanding of modern web technologies, I specialize in creating visually appealing, highly functional, and responsive web applications. My expertise lies in leveraging frameworks like React and JavaScript to build seamless and interactive user experiences. I have a keen eye for design aesthetics and usability, ensuring that every project I work on is intuitive and engaging for users. My skill set includes crafting reusable UI components, optimizing website performance, and integrating best practices in frontend development to deliver high-quality digital solutions.
+        I am a passionate Web Developer with extensive experience in UI/UX
+        design and frontend development. With a deep understanding of modern web
+        technologies, I specialize in creating visually appealing, highly
+        functional, and responsive web applications. My expertise lies in
+        leveraging frameworks like React and JavaScript to build seamless and
+        interactive user experiences. I have a keen eye for design aesthetics
+        and usability, ensuring that every project I work on is intuitive and
+        engaging for users. My skill set includes crafting reusable UI
+        components, optimizing website performance, and integrating best
+        practices in frontend development to deliver high-quality digital
+        solutions.
       </motion.p>
 
       {/* Personal Info + Skills Grid */}
@@ -91,9 +101,8 @@ const About = () => {
             {[
               { name: "HTML", level: 90 },
               { name: "CSS", level: 85 },
-              { name: "JavaScript", level: 80 },
+              { name: "JavaScript", level: 60 },
               { name: "React", level: 75 },
-              
             ].map((skill, index) => (
               <motion.div key={index} variants={fadeInUp}>
                 <div className="flex justify-between">
@@ -127,7 +136,7 @@ const About = () => {
             {
               title: "Bsc(Hons) in Computer Science & Data Analytics",
               subtitle: "IIT Patna | 2023 - 2026",
-              marks: "CPI: 8.9 (till semester 2)",
+              marks: "CPI:9.26 (till semester 3)",
               description:
                 "Focused on Web Development, Machine Learning, and Data Analytics.",
             },
@@ -142,8 +151,7 @@ const About = () => {
               title: "Matriculation",
               subtitle: "DAV Public School | 2019 - 2020",
               marks: "Percentage: 76%",
-              description:
-                "Excelled in all subjects",
+              description: "Excelled in all subjects",
             },
           ].map((item, index) => (
             <motion.div

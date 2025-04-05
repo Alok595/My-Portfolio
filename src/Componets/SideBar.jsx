@@ -18,7 +18,7 @@ const SideBar = () => {
     { icon: <FaHome />, title: "HOME", link: "/" },
     { icon: <FaUser />, title: "ABOUT", link: "/about" },
     { icon: <FaCog />, title: "SERVICES", link: "/services" },
-    { icon: <FaBell />, title: "PORTFOLIO", link: "/portfolio" },
+    { icon: <FaBell />, title: "PROJECTS", link: "/portfolio" },
     { icon: <FaHeart />, title: "CONTACT", link: "/contact" },
   ];
 
