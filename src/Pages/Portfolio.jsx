@@ -5,6 +5,10 @@ import Moko from "../assets/Moko.png";
 import Quiz from "../assets/Quiz.png";
 import Todo from "../assets/Todo.png";
 import SastaGpt from "../assets/SastaGpt.png";
+import walpaperbot from "../assets/walpaperbot.png";
+import botwears from "../assets/botwears.png";
+
+
 
 const Portfolio = () => {
   const projects = [
@@ -42,6 +46,20 @@ const Portfolio = () => {
         "SastaGPT – A budget-friendly AI that responds with text, generates images from text, answers images with insights, and more! Smart, sassy, and creative. 🤖🔥",
       image: SastaGpt,
       link: "https://sastagptbro.netlify.app/",
+    },
+     {
+      title: "WallPaperBot",
+      description:
+        "WallPaperBot is a full-stack MERN web application that allows shop owners to create shops and manage wallpapers (add, edit, delete) with images stored on Cloudinary, while users can browse, view, and download wallpapers. The app includes JWT-based authentication, role-based access control, and a responsive UI built with React and Tailwind CSS.",
+      image: walpaperbot,
+      link: "https://wallpaperbotproject-1.onrender.com/",
+    },
+     {
+      title: "BotWears",
+      description:
+        "BotWears – MERN E-Commerce: A full-stack clothing e-commerce platform featuring AI voice navigation, Google Login with JWT authentication, product search, filters, and personalized recommendations. Includes dedicated Admin and User dashboards with complete inventory and order management.",
+      image: botwears,
+      link: "https://botwearsfullstack-frontendone.onrender.com/",
     },
   ];
 
