@@ -177,15 +177,15 @@ const About = () => {
           {[
             {
               title: "Web Developer Intern",
-              subtitle: "Tech Solutions | 2023",
+              subtitle: "ApexPlanet (AICTE Approved) | Oct. 2025- Nov. 2025",
               description:
                 "Developed responsive websites using React, Tailwind CSS, and improved UI/UX performance.",
             },
             {
-              title: "Freelance Web Designer",
-              subtitle: "Self-Employed | 2022 - Present",
+              title: "DataScience Intern",
+              subtitle: "Hybrid Integrated Internship Program, GUVI (HCL Group Company) | Jun. 2025- Sep. 2025",
               description:
-                "Designed multiple web applications, built custom UI components, and optimized website performance.",
+                "Completed structured training with hands-on, industry-simulated projects, focusing on Python, MySQL, Data Science, TensorFlow, scikit-learn, and Deep Learning. Worked on multiple practical assignments and real-world problem statements, and earned an internship completion certificate upon successful project delivery.",
             },
           ].map((item, index) => (
             <motion.div
